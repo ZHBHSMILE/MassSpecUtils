@@ -9,8 +9,17 @@
 提供一系列用于处理 DIA-NN 输出数据的工具函数，
 包括肽段位置查找、修饰位点解析等功能。
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://zhbhmile.github.io/MassSpecUtils}
+  \item \url{https://github.com/ZHBHSMILE/MassSpecUtils}
+  \item Report bugs at \url{https://github.com/ZHBHSMILE/MassSpecUtils/issues}
+}
+
+}
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com}
+\strong{Maintainer}: Zhaopeng Lv \email{lvzhaopenglv@126.com}
 
 }
 \keyword{internal}

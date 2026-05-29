@@ -1,14 +1,22 @@
 Package: MassSpecUtils
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: 质谱蛋白质组学数据处理工具包 / Mass Spectrometry Proteomics Utilities
+Version: 0.1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Zhaopeng", "Lv", , "lvzhaopenglv@126.com", role = c("aut", "cre"))
+Description: 提供一系列用于处理质谱蛋白质组学数据的工具函数，包括肽段在蛋白质序列上的位置查找、UniMod 修饰位点解析以及 UniProt 条目格式化，适用于 DIA-NN 大规模输出数据的下游分析。
+    Provides utility functions for processing mass spectrometry-based
+    proteomics data, including peptide position mapping on protein sequences,
+    UniMod modification site parsing, and UniProt entry formatting,
+    designed for large-scale DIA-NN output data analysis.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-Imports: 
+Imports:
     stringr
-URL: https://github.com/ZHBHSMILE/MassSpecUtils
+URL: https://zhbhmile.github.io/MassSpecUtils, https://github.com/ZHBHSMILE/MassSpecUtils
 BugReports: https://github.com/ZHBHSMILE/MassSpecUtils/issues
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

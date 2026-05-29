@@ -1,0 +1,64 @@
+url: https://zhbhmile.github.io/MassSpecUtils/
+
+template:
+  bootstrap: 5
+  light-switch: true
+  theme: arrow-light
+  theme-dark: arrow-dark
+  bslib:
+    code-bg: "#f8f9fa"
+    code-color: "#c7254e"
+
+home:
+  title: "MassSpecUtils"
+  description: "用于质谱蛋白质组学数据处理的 R 工具包"
+
+navbar:
+  bg: primary
+  type: dark
+  structure:
+    left:  [reference, articles, news]
+    right: [github]
+  components:
+    reference:
+      text: 函数参考
+      href: reference/index.html
+    articles:
+      text: 文章
+      href: articles/index.html
+    news:
+      text: 更新日志
+      href: news/index.html
+    github:
+      icon: fab fa-github
+      href: https://github.com/ZHBHSMILE/MassSpecUtils
+
+# 文章目录配置
+articles:
+  - title: "入门"
+    desc: "快速上手 MassSpecUtils"
+    contents:
+      - intro                  # 对应 vignettes/intro.Rmd
+  - title: "使用教程"
+    desc: "各功能详细说明"
+    contents:
+      - peptide-pos            # 对应 vignettes/peptide-pos.Rmd
+
+reference:
+  - title: "肽段与蛋白质"
+    desc: "肽段位置查找相关函数"
+    contents:
+      - find_peptide_pos
+  - title: "修饰位点解析"
+    desc: "UniMod 修饰位点提取相关函数"
+    contents:
+      - get_mod_pos
+  - title: "数据格式化"
+    desc: "UniProt 条目格式化相关函数"
+    contents:
+      - format_uni
+
+footer:
+  structure:
+    left:  developed_by
+    right: built_with

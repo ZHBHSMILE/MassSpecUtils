@@ -1,0 +1,19 @@
+---
+title: "肽段位置查找详解"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{肽段位置查找详解}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MassSpecUtils)
+```
