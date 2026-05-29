@@ -6,3 +6,27 @@
 .quarto
 .positai
 inst/doc
+
+# R files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# R Markdown intermediates
+*.knit.md
+*.utf8.md
+README.html
+
+# Compiled documentation
+*.pdf
+*.html
+
+# Package building
+.Rbuildignore
+*.Rcheck/
+
+# Python (如果有)
+__pycache__/
+*.pyc
+
