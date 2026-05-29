@@ -1,4 +1,4 @@
-```markdown
+
 # MassSpecUtils
 
 用于质谱蛋白质组学数据处理的 R 工具包，提供肽段位置查找、UniMod 修饰位点解析、UniProt 条目格式化等功能。
@@ -138,4 +138,4 @@ df <- df |>
 ## 开源协议
 
 MIT
-```
+
